@@ -1,0 +1,70 @@
+<svg id="g2208" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.362" height="38.362" viewBox="0 0 38.362 38.362">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_220" data-name="Rectangle 220" width="38.362" height="38.362" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="g2210">
+    <g id="Group_878" data-name="Group 878">
+      <g id="Group_877" data-name="Group 877" clip-path="url(#clip-path)">
+        <g id="g2212" transform="translate(6.942 0.123)">
+          <g id="g2218">
+            <g id="path2220">
+              <path id="Path_947" data-name="Path 947" d="M583.9,463.749H565.913a3.252,3.252,0,0,1-3.248-3.249V428.882a3.252,3.252,0,0,1,3.248-3.248H583.9a3.252,3.252,0,0,1,3.248,3.248V460.5A3.252,3.252,0,0,1,583.9,463.749Zm-17.982-36.115a1.25,1.25,0,0,0-1.248,1.248V460.5a1.25,1.25,0,0,0,1.248,1.249H583.9a1.25,1.25,0,0,0,1.248-1.249V428.882a1.25,1.25,0,0,0-1.248-1.248Z" transform="translate(-562.665 -425.634)"/>
+            </g>
+          </g>
+          <g id="g2222" transform="translate(0 28.622)">
+            <g id="path2224">
+              <path id="Path_948" data-name="Path 948" d="M586.143,456.256H563.665a1,1,0,0,1,0-2h22.478a1,1,0,0,1,0,2Z" transform="translate(-562.665 -454.256)"/>
+            </g>
+          </g>
+          <g id="g2226" transform="translate(11.115 32.244)">
+            <g id="path2228">
+              <path id="Path_949" data-name="Path 949" d="M573.78,459a1.124,1.124,0,1,1,1.124,1.124A1.125,1.125,0,0,1,573.78,459" transform="translate(-573.78 -457.878)"/>
+            </g>
+          </g>
+          <g id="g2230" transform="translate(4.496 9.89)">
+            <g id="path2232">
+              <path id="Path_950" data-name="Path 950" d="M581.647,443.519H568.161a1,1,0,0,1-1-1v-2.248a1,1,0,0,1,.514-.874l6.743-3.747a1,1,0,0,1,.972,0l6.743,3.747a1,1,0,0,1,.514.874v2.248A1,1,0,0,1,581.647,443.519Zm-12.486-2h11.486v-.66l-5.743-3.191-5.743,3.191Z" transform="translate(-567.161 -435.524)"/>
+            </g>
+          </g>
+          <g id="g2234" transform="translate(4.496 23.377)">
+            <g id="path2236">
+              <path id="Path_951" data-name="Path 951" d="M581.647,451.011H568.161a1,1,0,0,1,0-2h13.486a1,1,0,0,1,0,2Z" transform="translate(-567.161 -449.011)"/>
+            </g>
+          </g>
+          <g id="g2238" transform="translate(6.744 15.885)">
+            <g id="path2240">
+              <path id="Path_952" data-name="Path 952" d="M570.409,451.011a1,1,0,0,1-1-1v-7.492a1,1,0,0,1,2,0v7.492A1,1,0,0,1,570.409,451.011Z" transform="translate(-569.409 -441.519)"/>
+            </g>
+          </g>
+          <g id="g2242" transform="translate(11.239 15.885)">
+            <g id="path2244">
+              <path id="Path_953" data-name="Path 953" d="M574.9,451.011a1,1,0,0,1-1-1v-7.492a1,1,0,0,1,2,0v7.492A1,1,0,0,1,574.9,451.011Z" transform="translate(-573.904 -441.519)"/>
+            </g>
+          </g>
+          <g id="g2246" transform="translate(15.735 15.885)">
+            <g id="path2248">
+              <path id="Path_954" data-name="Path 954" d="M579.4,451.011a1,1,0,0,1-1-1v-7.492a1,1,0,0,1,2,0v7.492A1,1,0,0,1,579.4,451.011Z" transform="translate(-578.4 -441.519)"/>
+            </g>
+          </g>
+          <g id="g2250" transform="translate(8.992 4.496)">
+            <g id="path2252">
+              <path id="Path_955" data-name="Path 955" d="M577.152,432.13h-4.495a1,1,0,0,1,0-2h4.495a1,1,0,0,1,0,2Z" transform="translate(-571.657 -430.13)"/>
+            </g>
+          </g>
+          <g id="g2254" transform="translate(4.496 32.368)">
+            <g id="path2256">
+              <path id="Path_956" data-name="Path 956" d="M569.66,460h-1.5a1,1,0,0,1,0-2h1.5a1,1,0,0,1,0,2Z" transform="translate(-567.161 -458.002)"/>
+            </g>
+          </g>
+          <g id="g2258" transform="translate(16.484 32.368)">
+            <g id="path2260">
+              <path id="Path_957" data-name="Path 957" d="M581.647,460h-1.5a1,1,0,0,1,0-2h1.5a1,1,0,0,1,0,2Z" transform="translate(-579.149 -458.002)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

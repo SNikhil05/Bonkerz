@@ -1,0 +1,377 @@
+.cstms .quickview__value--quantity,
+.cstms input.quickview__value--number{
+    height: 4.7rem;
+}
+.top-25{
+    top:35%;
+    right:5%;
+}
+.productDtls button{
+        box-shadow:none;
+        color:#000;
+        padding-left:0;
+        padding-right:0;
+}
+.productDtls button:focus{
+ box-shadow:none;
+}
+.productDtls button.accordion-button:not(.collapsed){
+    color:#000;
+    box-shadow:none;
+}
+.grid{
+   display:flex;
+   grid-column-gap:15px;
+   grid-row-gap:15px;
+   flex-wrap:wrap;
+}
+.grid a.gridCol{
+        width:calc(50% - 8px);
+}
+
+/* review progress baar css*/
+.reviewBg{
+    background-color:rgb(169 169 169 / 12%);
+    border:1px solid rgb(112 112 112 / 12%);
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-reset {
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+  display: none;
+}
+
+
+/* .rating {
+  margin: 0;
+  padding: 0;
+  border: none;
+} */
+.rating__group {
+  position: relative;
+  width: 79px;
+  height: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93074 1.28395C6.33601 0.349362 7.66139 0.349361 8.06665 1.28395L9.29259 4.11107L12.3602 4.40338C13.3743 4.50001 13.7838 5.76052 13.0202 6.43476L10.7103 8.47433L11.3802 11.4821C11.6017 12.4764 10.5295 13.2555 9.65225 12.7376L6.9987 11.171L4.34515 12.7376C3.46794 13.2555 2.39569 12.4764 2.61716 11.4821L3.2871 8.47433L0.977173 6.43476C0.213564 5.76052 0.623127 4.50001 1.63721 4.40338L4.7048 4.11108L5.93074 1.28395ZM8.22464 4.57418L6.9987 1.74705L5.77276 4.57418C5.60409 4.96315 5.23727 5.22965 4.81522 5.26987L1.74763 5.56218L4.05755 7.60175C4.37536 7.88236 4.51547 8.31357 4.4233 8.7274L3.75336 11.7352L6.40691 10.1686C6.772 9.95304 7.2254 9.95304 7.59049 10.1686L10.244 11.7352L9.5741 8.7274C9.48193 8.31357 9.62204 7.88236 9.93985 7.60175L12.2498 5.56218L9.18217 5.26987C8.76012 5.22965 8.39331 4.96315 8.22464 4.57418Z' fill='%23B3B7BC'/%3E%3C/svg%3E");
+  background-size: 16px 14px;
+}
+/* .rating__group:focus-within {
+  outline: 1px solid #4a90e2;
+} */
+.rating__star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 14px;
+  font-size: inherit;
+  appearance: none;
+  background-size: 16px 14px;
+}
+.rating__star:not(:last-child) {
+  margin-right: 2px;
+}
+.rating__star:nth-of-type(1) {
+  z-index: 5;
+  width: 16px;
+}
+.rating__star:nth-of-type(2) {
+  z-index: 4;
+  width: 32px;
+}
+.rating__star:nth-of-type(3) {
+  z-index: 3;
+  width: 48px;
+}
+.rating__star:nth-of-type(4) {
+  z-index: 2;
+  width: 63px;
+}
+.rating__star:nth-of-type(5) {
+  z-index: 1;
+  width: 79px;
+}
+.rating__star:focus {
+  outline: none;
+}
+
+.rating__star:hover,
+.rating__star:checked {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93074 1.28395C6.33601 0.349362 7.66139 0.349361 8.06665 1.28395L9.29259 4.11107L12.3602 4.40338C13.3743 4.50001 13.7838 5.76052 13.0202 6.43476L10.7103 8.47433L11.3802 11.4821C11.6017 12.4764 10.5295 13.2555 9.65225 12.7376L6.9987 11.171L4.34515 12.7376C3.46794 13.2555 2.39569 12.4764 2.61716 11.4821L3.2871 8.47433L0.977173 6.43476C0.213564 5.76052 0.623127 4.50001 1.63721 4.40338L4.7048 4.11108L5.93074 1.28395Z' fill='%23F89828'/%3E%3C/svg%3E");
+}
+
+.rating__star:hover ~ .rating__star {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93074 1.28395C6.33601 0.349362 7.66139 0.349361 8.06665 1.28395L9.29259 4.11107L12.3602 4.40338C13.3743 4.50001 13.7838 5.76052 13.0202 6.43476L10.7103 8.47433L11.3802 11.4821C11.6017 12.4764 10.5295 13.2555 9.65225 12.7376L6.9987 11.171L4.34515 12.7376C3.46794 13.2555 2.39569 12.4764 2.61716 11.4821L3.2871 8.47433L0.977173 6.43476C0.213564 5.76052 0.623127 4.50001 1.63721 4.40338L4.7048 4.11108L5.93074 1.28395ZM8.22464 4.57418L6.9987 1.74705L5.77276 4.57418C5.60409 4.96315 5.23727 5.22965 4.81522 5.26987L1.74763 5.56218L4.05755 7.60175C4.37536 7.88236 4.51547 8.31357 4.4233 8.7274L3.75336 11.7352L6.40691 10.1686C6.772 9.95304 7.2254 9.95304 7.59049 10.1686L10.244 11.7352L9.5741 8.7274C9.48193 8.31357 9.62204 7.88236 9.93985 7.60175L12.2498 5.56218L9.18217 5.26987C8.76012 5.22965 8.39331 4.96315 8.22464 4.57418Z' fill='%23B3B7BC'/%3E%3C/svg%3E");
+}
+
+.product-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 10%;
+}
+
+.reviews-info__title {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1E212C;
+}
+.reviews-info .rating {
+  margin-bottom: 20px;
+}
+.reviews-info__caption {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+.reviews-bar__list {
+  display: flex;
+  flex-direction: column;
+}
+.reviews-bar__item {
+  display: flex;
+  align-items: center;
+}
+.reviews-bar__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.review_progress_bar {
+  display: flex;
+  align-items: center;
+}
+.review_progress_bar__star {
+  margin-right: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+.review_progress_bar__outter-line {
+  overflow: hidden;
+  position: relative;
+  min-width: 119px;
+  max-width: 350px;
+  height: 4px;
+  border-radius: 40px;
+  background-color: #E5E8ED;
+}
+.review_progress_bar__inner-line {
+  position: absolute;
+  height: 4px;
+  border-radius: 40px;
+}
+.review_progress_bar__inner-line--excellent {
+  background-color: #03CEA4;
+}
+.review_progress_bar__inner-line--good {
+  background-color: #1FDF58;
+}
+.review_progress_bar__inner-line--normal {
+  background-color: #F2EA2B;
+}
+.review_progress_bar__inner-line--not-bad {
+  background-color: #F89828;
+}
+.review_progress_bar__inner-line--bad {
+  background-color: #FF4242;
+}
+.review_progress_bar__quantity {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+/*end review progress baar css*/
+
+
+
+/* custom select box*/
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+   background-color:#797979;
+   margin-bottom: 15px;
+   margin-top:15px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 21px;
+  right: 21px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 15px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  min-width:160px;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #797979;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*end custom select box*/
+
+/*====== cart page=======*/
+.cart__thumbnail_2{
+  max-width: 15rem;
+}
+.car_img_holder{
+  width:100%;
+  height:228px;
+  overflow:hidden;
+}
+.car_img_holder a{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    border-radius:4px;
+}
+.prdSelect{
+    padding:12px;
+    font-size:14px;
+}
+.prdQty button, .prdQty input{
+    height:49px;
+}
+.bg-black{
+}
+
+tr.cart__summary--total__list{
+    border-bottom: solid 1px #ccc;
+}
+.timeLine{
+  box-shadow:0 2px 22px rgba(0, 0, 0, 0.1);
+  padding:25px 0;
+}
+.timeLine ul{
+  position:relative;
+  background-color:#fff;
+
+}
+.timeLine ul:before{
+  position:absolute;
+  top:calc(50% - 1px);
+  content:'';
+  width:calc(100% - 30px);
+  height:2px;
+  border-bottom:dashed 3px #ccc;
+}
+.timeLine ul li{   
+    position:relative;
+    z-index:1;
+    padding-right: 15px;
+    background:#fff;
+    font-size:18px;
+}
+.timeLine ul li span{
+  margin-left:10px;
+}
+.timeLine ul li span,
+.timeLine ul li{
+      color:#777;
+}
+
+.timeLine ul li.past{
+  color:#000;
+}
+.timeLine ul li.past span{
+  color:red;
+}
+.paySidebaar{
+background: var(--gray-color2);
+}
+
+.modal.fade.show {
+    opacity: 10;
+    z-index: 99999;
+    visibility: visible;
+    background:rgb(239 233 233 / 80%);
+}
+.payScroller{
+  height:520px;
+  overflow:auto;
+
+}
+
+/* width */
+.payScroller::-webkit-scrollbar {
+  width: 5px;
+}
+
+.payScroller::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+.payScroller::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px #000;
+}
+.payModelOpt button.btn-close {
+    position: absolute;
+    right: -31px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #fff;
+    top: -21px;
+    opacity: 10;
+    border-radius: 50%;
+    border: solid 1px #8f8c8c;
+}
